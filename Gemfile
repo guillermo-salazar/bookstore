@@ -4,8 +4,10 @@ source "https://rubygems.org"
 gem 'sinatra'
 gem 'rake'
 
-group :test do 
+group :development do
+  gem 'bullet'
+end
+group :test do
   gem 'rspec'
   gem 'pry'
 end
-  
